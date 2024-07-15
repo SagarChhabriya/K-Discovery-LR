@@ -23,6 +23,15 @@ Here Y is called a dependent or target variable and X is called an independent v
 ```Cost function for Linear Regression```<br>
 The cost function or the loss function is nothing but the error or difference between the predicted value ^𝑌 and the true value Y.
 
+  # Simple Linear Regression Mathematical Formulation
+  How to Find m, and b?<br>
+  There are two different two to find the values of m, and b
+
+    -Close Form Expression
+
+    -Non-Close Form Expression
+
+
 ## Multiple linear regression
 Features one dependent variable (interval or ratio) and two or more independent variables (interval or ratio or dichotomous).
 
