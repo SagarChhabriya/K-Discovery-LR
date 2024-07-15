@@ -23,13 +23,21 @@ Here Y is called a dependent or target variable and X is called an independent v
 ```Cost function for Linear Regression```<br>
 The cost function or the loss function is nothing but the error or difference between the predicted value ^𝑌 and the true value Y.
 
-  # Simple Linear Regression Mathematical Formulation
+  ### Simple Linear Regression Mathematical Formulation
   How to Find m, and b?<br>
   There are two different two to find the values of m, and b
 
-    -Close Form Expression
+    1. Closed Form Expression Direct Formula (Sklearn uses OLS technique), best for lower dimensional data. [Wikepedia](https://en.wikipedia.org/wiki/Closed-form_expression)
+        Precalculus: In mathematics, an expression is in closed form if it is formed with constants, variables and a finite set of basic 		functions connected by arithmetic operations           (+, −, ×, /, and integer powers) and function composition. Commonly, the allowed 		functions are nth root, exponential function, logarithm, and trigonometric functions.[a]             However, the set of basic functions 		depends on the context.<br>
+	    Usually you don't use the limit, differentiation, or integration.<br>
+	    Ex: Solving a quadratic expression using the quadratic formula.<br>
 
-    -Non-Close Form Expression
+	  [OLS](https://en.wikipedia.org/wiki/Ordinary_least_squares#:~:text=In%20all%20cases%20the%20formula,how%20we%20interpret%20this%20result).<br>
+
+      
+    2. Non-Close Form Expression: No Direct Formula | Usually found using differentiation or integration. <br>
+        		Gradient Descent an approximation technique is used to find m, and b.<br>
+		        Best for higher dimensional data | SGDRegression class in sklearn 
 
 
 ## Multiple linear regression
