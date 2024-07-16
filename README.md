@@ -39,7 +39,12 @@ The cost function or the loss function is nothing but the error or difference be
 	2.Non-Closed From Scratch: No Direct Formula | Usually found using differentiation or integration. <br>
 		Gradient Descent an approximation technique is used to find m, and b.<br>
 		Best for higher dimensional data | SGDRegression class in sklearn <br>
-
+### Reression Metrics
+1. MAE 
+2. MSE
+3. RMSE
+4. R2 Score
+5. Adjusted R2 Score
 
 ## Multiple linear regression
 Features one dependent variable (interval or ratio) and two or more independent variables (interval or ratio or dichotomous).
