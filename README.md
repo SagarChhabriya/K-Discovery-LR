@@ -1,9 +1,16 @@
 # K-Discovery-LR
-## Regression Analysis
-  1. Linear Regression
-  2. Simple Regression
-  3. Polynomial Regression
-  4. General Linear Model  
+
+- [Regression Analysis](#regression-analysis)
+  - [Linear Regression](#linear-regression)
+  - [Simple Regression](#simple-regression)
+  - [Polynomial Regression](#polynomial-regression)
+  - [General Linear Model](#general-linear-model)
+- [Simple linear regression](#simple-linear-regression)
+- [Multiple linear regression](#multiple-linear-regression)
+- [Polynomial Linear Regression (Simple + Multiple)](#polynomial-linear-regression-simple--multiple)
+- [Logistic regression](#logistic-regression)
+- [Ordinal regression](#ordinal-regression)
+- [Multinomial regression](#multinomial-regression)
 
 
 ## Simple linear regression
@@ -23,22 +30,26 @@ Here Y is called a dependent or target variable and X is called an independent v
 ```Cost function for Linear Regression```<br>
 The cost function or the loss function is nothing but the error or difference between the predicted value ^𝑌 and the true value Y.
 
-  ### Simple Linear Regression Mathematical Formulation
-  How to Find m, and b?<br>
-  There are two different two to find the values of m, and b <br>
-  ```Every ML algorithm has a MOF (Mathematical Objective Function). The MOF of LR algorithm is to minimize the distances``` <br>
- <br> <br>	
- How to Find m, and b?<br>
+### Simple Linear Regression Mathematical Formulation
+How to Find m, and b?<br>
+There are two different two to find the values of m, and b <br>
+```Every ML algorithm has a MOF (Mathematical Objective Function). The MOF of LR algorithm is to minimize the distances``` <br><br><br>
+
  There are two different two to find the values of m, and b<br><br>
-	1.Closed Form Solution:  Direct Formula (Sklearn uses OLS technique), best for lower dimensional data. [Wikipedia](https://en.wikipedia.org/wiki/Closed-form_expression)
-	Precalculus: In mathematics, an expression is in closed form if it is formed with constants, variables and a finite set of basic functions connected by arithmetic operations (+, 
-  	−, ×, /, and integer powers) and function composition. Commonly, the allowed functions are nth root, exponential function, logarithm, and trigonometric functions.[a] However, the 	set of basic functions depends on the context.<br><br>
-	Usually you don't use the limit, differentiation, or integration.<br><br>
-	Ex: Solving a quadratic expression using the quadratic formula.<br><br>
-	[MOF in Linear Regression --> OLS](https://en.wikipedia.org/wiki/Ordinary_least_squares#:~:text=In%20all%20cases%20the%20formula,how%20we%20interpret%20this%20result).<br><br>
-	2.Non-Closed From Scratch: No Direct Formula | Usually found using differentiation or integration. <br>
-		Gradient Descent an approximation technique is used to find m, and b.<br>
-		Best for higher dimensional data | SGDRegression class in sklearn <br>
+1. **Closed Form Solution:** Direct Formula (Sklearn uses OLS technique), best for lower dimensional data. [Wikipedia](https://en.wikipedia.org/wiki/Closed-form_expression)
+   
+   Precalculus: In mathematics, an expression is in closed form if it is formed with constants, variables and a finite set of basic functions connected by arithmetic operations (+, 
+   −, ×, /, and integer powers) and function composition. Commonly, the allowed functions are nth root, exponential function, logarithm, and trigonometric functions.[a] However, the set of basic functions depends on the context.<br><br>
+   Usually you don't use the limit, differentiation, or integration.<br><br>
+   Ex: Solving a quadratic expression using the quadratic formula.<br><br>
+   [MOF in Linear Regression --> OLS](https://en.wikipedia.org/wiki/Ordinary_least_squares#:~:text=In%20all%20cases%20the%20formula,how%20we%20interpret%20this%20result).<br><br>
+   
+2. **Non-Closed From Scratch:** No Direct Formula | Usually found using differentiation or integration. <br>
+   
+   Gradient Descent an approximation technique is used to find m, and b.<br>
+   
+   Best for higher dimensional data | SGDRegression class in sklearn <br>
+
 ### Reression Metrics
 1. MAE 
 2. MSE
@@ -48,6 +59,10 @@ The cost function or the loss function is nothing but the error or difference be
 
 ## Multiple linear regression
 Features one dependent variable (interval or ratio) and two or more independent variables (interval or ratio or dichotomous).
+[Theory + Code](2-MLR.ipynb)
+
+## Polynomial Linear Regression (Simple + Multiple)
+[Theory + Code ](3-PLR.ipynb)
 
 ## Logistic regression
 Deals with one dependent variable (dichotomous) and two or more independent variables (interval or ratio or dichotomous).
