@@ -4,6 +4,7 @@
   - [Linear Regression](#linear-regression)
   - [Simple Regression](#simple-regression)
   - [Polynomial Regression](#polynomial-regression)
+  - [Bias Variance Trade Off](#bias-variance-trade-off)
   - [General Linear Model](#general-linear-model)
 - [Simple linear regression](#simple-linear-regression)
 - [Multiple linear regression](#multiple-linear-regression)
@@ -63,6 +64,9 @@ Features one dependent variable (interval or ratio) and two or more independent 
 
 ## Polynomial Linear Regression (Simple + Multiple)
 [Theory + Code ](3-PLR.ipynb)
+
+## Bias Variance Trade-Off
+[Theory](4-Bias-Variance-TradeOff.ipynb)
 
 ## Logistic regression
 Deals with one dependent variable (dichotomous) and two or more independent variables (interval or ratio or dichotomous).
