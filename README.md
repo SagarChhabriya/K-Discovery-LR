@@ -5,3 +5,5 @@
 2. [Multiple Linear Regression](/Linear-Regression/2-MLR.ipynb)
 3. [Polynomial Linear Regression](/Linear-Regression/3-PLR.ipynb)
 4. [Bias Variance Trade Off](/Linear-Regression/4-Bias-Variance-TradeOff.ipynb)
+
+## [Logistic Regression](/Logistic-Regression/README.md)
