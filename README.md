@@ -7,3 +7,9 @@
 4. [Bias Variance Trade Off](/Linear-Regression/4-Bias-Variance-TradeOff.ipynb)
 
 ## [Logistic Regression](/Logistic-Regression/README.md)
+TODO: 
+1. LG: Perceptron
+2. LG: Non Perceptron
+3. LG: Gradient Descent
+4. LG: Polynomial
+
